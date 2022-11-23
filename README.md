@@ -18,10 +18,15 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 
+<<<<<<< HEAD
 dasda
 
+=======
+## Diseño de la herrami 
+Para este proyecto se inicio con el diseño d
+>>>>>>> cc7e6c58bd343fea0b9cd88483a14c7e96c9f793
 ## Diseño del Gripper 
-## Diseño del porta herramientas 
+Para el diseño del gripper 
 ## Modelo RobotStudio 
 ## Código RAPID
 ## Desarrollo  (video tipo presentación)
