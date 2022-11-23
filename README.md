@@ -18,7 +18,7 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 
-
+dasda
 
 ## Diseño del Gripper 
 ## Diseño del porta herramientas 
@@ -26,3 +26,4 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ## Código RAPID
 ## Desarrollo  (video tipo presentación)
 ## Conclusiones 
+ffff
