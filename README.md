@@ -16,12 +16,12 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 > - [Cristhian Ferney Pulido Garcia](https://github.com/CristhianPu) (cfpulidog@unal.edu.co) :hibiscus:
 > - [Brian Camilo Saiz Cavanzo](https://github.com/briansaiz) (brcsaizca@unal.edu.co) 🌞
 ---
-fsdfdsfsdfds
-fdsfsds
-fsdf
 
+
+## Diseño de la herrami 
+Para este proyecto se inicio con el diseño d
 ## Diseño del Gripper 
-## Diseño del porta herramientas 
+Para el diseño del gripper 
 ## Modelo RobotStudio 
 ## Código RAPID
 ## Desarrollo  (video tipo presentación)
