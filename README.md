@@ -18,7 +18,7 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 
-## Diseño de la herramienta porta ventosa 
+## Diseño de herramienta porta ventosa 
 Para el desarrollo de este proyecto se inció con el diseño de la herramienta porta ventosa, partiendo de las [especifiaciones del producto](https://library.e.abb.com/public/81a35b138c2342b5b9455e5696a09484/3HAC027400%20PM%20IRB%20140-en.pdf) del manipulador IRB 140, especificamente de las dimensiones de la brida para herramientas y las cuales se pueden ver acontinuación
 
 <p align="center"><img height=250 src="./assets/flange.png" alt="holes on mounting flange" /></p>
