@@ -70,8 +70,15 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 
 ## Modelo RobotStudio 
 
-![RobotStudio](https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif" alt="tool" width="400" /> <br/>
+ 
+        OnShape modelo CAD del Gripper funcionando
+    </a>
+</p>
 
+
+![RobotStudio](https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif)
 -
 ## Código RAPID
 
