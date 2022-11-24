@@ -71,7 +71,7 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 ## Modelo RobotStudio 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif" alt="tool" width="500" /> <br/>
+    <img src="https://user-images.githubusercontent.com/53317895/203784722-0ff14e81-98b5-4d61-bb91-7a6c9b9d4e47.gif" alt="tool" width="500" /> <br/>
  </p>
 
 
