@@ -80,7 +80,12 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 ## Código RAPID
 
 
-## Desarrollo  (video tipo presentación)
+## Desarrollo  
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/53317895/203788864-cbfbfc06-f159-49dd-9c96-099a9145cbc9.gif" alt="tool" width="500" /> <br/>
+ </p>
+
 
 ## Conclusiones 
 
