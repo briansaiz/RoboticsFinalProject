@@ -87,6 +87,13 @@ A continuación se puede observar como el diseño del gripper es totalmente func
  </p>
 
 
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/53317895/203791819-74921edd-79bb-41e3-abe3-f14542886926.gif" alt="tool" width="500" /> <br/>
+ </p>
+
+
+
 ## Conclusiones 
 
 * Al momento de diseñar un proceso de ensamble, manufactura o de cualquier indole industrial es preciso tener en cuenta cuales son los requisitos y limitaciones tanto de espacio, dispositivo como a tareas a realizar, pues son estas las que definiran los diseños desde herramientas hasta los procesos mismos.
