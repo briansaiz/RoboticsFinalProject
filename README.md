@@ -70,7 +70,9 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 
 ## Modelo RobotStudio 
 
+-
 ## Código RAPID
+
 
 ## Desarrollo  (video tipo presentación)
 
