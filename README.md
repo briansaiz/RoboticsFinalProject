@@ -54,7 +54,7 @@ Es así que el gripper diseñado fue el siguiente.
     </a>
 </p>
 
-Al momento de crear las diferentes trayectorias en Robot Studio se encontró con que en el proceso de situar los targets en las piezas se dificultaba ponerlos en las lugares especificos que se esperaban. Es por esto que lo que se decidio fue crear elementos facilitacen la ubicación de los targets en Robot Studio, de ahí que las piezas tanto del gripper como de las bases del Pick y del Place tengan trazadas circunferencias en posiciones determinadas.
+Al momento de crear las diferentes trayectorias en Robot Studio se encontró con que se dificultaba el proceso de situar los targets en las piezas en los lugares especificos y necesarios para que la ventosa se ubicara adecuadamente. Es por esto que lo que se decidio fue crear elementos facilitacen la ubicación de los targets en Robot Studio, de ahí que las piezas tanto del gripper como de las bases del Pick y del Place tengan trazadas circunferencias en posiciones determinadas.
 
 
 Para poder interactuar y ver con mayor profundidad la herramienta porta ventosa se sugiere verla en <a target="_blank" href="https://cad.onshape.com/documents/c2d00034c333774d1d1069d7/w/73e6d23a367311dee87d113d/e/b44da0999e3f25b7aa20ed3b"> OnShape</a>.
