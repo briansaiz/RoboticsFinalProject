@@ -67,10 +67,15 @@ A continuación se puede observar como el diseño del gripper es totalmente func
         OnShape modelo CAD del Gripper funcionando
     </a>
 </p>
+
 ## Modelo RobotStudio 
+
 ## Código RAPID
+
 ## Desarrollo  (video tipo presentación)
+
 ## Conclusiones 
+
 * Al momento de diseñar un proceso de ensamble, manufactura o de cualquier indole industrial es preciso tener en cuenta cuales son los requisitos y limitaciones tanto de espacio, dispositivo como a tareas a realizar, pues son estas las que definiran los diseños desde herramientas hasta los procesos mismos.
 
 
