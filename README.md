@@ -25,6 +25,8 @@ Para el desarrollo de este proyecto se inció con el diseño de la herramienta p
 
 A partir de las dimensiones de las ventosas y acoples dispuestos en el laboratorio y de la brida para herramientas del manipulador IRB 140 se diseño el porta ventosa tal que se adaptase a cada uno de estos elementos.
 
+Como desde un principio se establecio que el proceso de fabricación de la herramienta iba a ser por manufactura aditiva se tuvo que disminuir los concetradores de esfuerzos a traves de la presencia de chaflanes de radios bastantes pronuncioados, todo esto para evitar la fractura de la herramienta por lo anisotropia que se presentan en las piezas fabricadas por MDF en las secciones paralelas a la base de construcción.
+
 Adicionalmente, se estableció como criterio de diseño que el TCP deberia estar alineado al eje deacción de la articulación seis, de tal manera que esta fuese "simetrica" al rededor del eje z. Es así, que la herramienta porta ventosa final diseñada es la que se puede observar a continuación
 
 <p align="center">
@@ -57,10 +59,21 @@ Al momento de crear las diferentes trayectorias en Robot Studio se encontró con
 
 Para poder interactuar y ver con mayor profundidad la herramienta porta ventosa se sugiere verla en <a target="_blank" href="https://cad.onshape.com/documents/c2d00034c333774d1d1069d7/w/73e6d23a367311dee87d113d/e/b44da0999e3f25b7aa20ed3b"> OnShape</a>.
 
-Los planos de fabricación se pueden ver en la carpeta de [planos](https://github.com/briansaiz/RoboticsFinalProject/blob/main/planos/Portaherramienta.pdf)
+Los planos de fabricación se pueden ver en la carpeta de [planos](https://github.com/briansaiz/RoboticsFinalProject/blob/main/planos/GRIPPER.pdf).
 
 
+A continuación se puede observar como el diseño del gripper es totalmente funcional.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/22859451/203696397-a5736d6c-0529-418b-860c-52b43215df62.gif" alt="tool" width="400" /> <br/>
+    <a href="https://cad.onshape.com/documents/c2d00034c333774d1d1069d7/w/73e6d23a367311dee87d113d/e/b44da0999e3f25b7aa20ed3b?renderMode=0&uiState=637ef10935e2210728d412a8">
+        OnShape modelo CAD del Gripper funcionando
+    </a>
+</p>
 ## Modelo RobotStudio 
 ## Código RAPID
 ## Desarrollo  (video tipo presentación)
 ## Conclusiones 
+* Al momento de diseñar un proceso de ensamble, manufactura o de cualquier indole industrial es preciso tener en cuenta cuales son los requisitos y limitaciones tanto de espacio, dispositivo como a tareas a realizar, pues son estas las que definiran los diseños desde herramientas hasta los procesos mismos.
+
+
