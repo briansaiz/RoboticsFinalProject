@@ -27,7 +27,7 @@ Como desde un principio se establecio que el proceso de fabricación de la herra
 Adicionalmente, se estableció como criterio de diseño que el TCP deberia estar alineado al eje deacción de la articulación seis, de tal manera que esta fuese "simetrica" al rededor del eje z. Es así, que la herramienta porta ventosa final diseñada es la que se puede observar a continuación
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/22859451/203667176-c2b69f29-7fee-4a53-9b09-2f1c754cb256.gif" alt="tool" width="400" /> <br/>
+    <img src="https://user-images.githubusercontent.com/22859451/203667176-c2b69f29-7fee-4a53-9b09-2f1c754cb256.gif" alt="tool" width="500" /> <br/>
     <a href="https://cad.onshape.com/documents/87fae4edd689d660c54eaff0/w/6fba91a9acc885ef7d218d0f/e/0715371a4d1c41e46584bd85">
         OnShape modelo CAD de la herramienta porta ventosa 
     </a>
@@ -45,7 +45,7 @@ Dado que el diametro interior de la ventosa es de 21 mm se tuvo como requisito d
 Es así que el gripper diseñado fue el siguiente.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/22859451/203692858-d24da7a8-6eb1-4fa2-83ce-b48311b2ce65.gif" alt="tool" width="400" /> <br/>
+    <img src="https://user-images.githubusercontent.com/22859451/203692858-d24da7a8-6eb1-4fa2-83ce-b48311b2ce65.gif" alt="tool" width="500" /> <br/>
     <a href="https://cad.onshape.com/documents/c2d00034c333774d1d1069d7/w/73e6d23a367311dee87d113d/e/b44da0999e3f25b7aa20ed3b?renderMode=0&uiState=637ef10935e2210728d412a8">
         OnShape modelo CAD del Gripper
     </a>
@@ -62,7 +62,7 @@ Los planos de fabricación se pueden ver en la carpeta de [planos](https://githu
 A continuación se puede observar como el diseño del gripper es totalmente funcional.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/22859451/203696397-a5736d6c-0529-418b-860c-52b43215df62.gif" alt="tool" width="400" /> <br/>
+    <img src="https://user-images.githubusercontent.com/22859451/203696397-a5736d6c-0529-418b-860c-52b43215df62.gif" alt="tool" width="500" /> <br/>
     <a href="https://cad.onshape.com/documents/c2d00034c333774d1d1069d7/w/73e6d23a367311dee87d113d/e/b44da0999e3f25b7aa20ed3b?renderMode=0&uiState=637ef10935e2210728d412a8">
         OnShape modelo CAD del Gripper funcionando
     </a>
@@ -71,15 +71,12 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 ## Modelo RobotStudio 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif" alt="tool" width="400" /> <br/>
- 
-        OnShape modelo CAD del Gripper funcionando
-    </a>
-</p>
+    <img src="https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif" alt="tool" width="500" /> <br/>
+ </p>
 
 
-![RobotStudio](https://user-images.githubusercontent.com/53317895/203775781-52d16c12-24b1-4f01-b353-3115c0787dd2.gif)
--
+
+
 ## Código RAPID
 
 
