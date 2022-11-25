@@ -15,7 +15,7 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" alt="tool" width="500" /> <br/>
+    <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" alt="tool" width="500" href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share"/> <br/>
     <a href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share">
         Video desarrollo Proyecto Final
         </a>
@@ -30,7 +30,7 @@ Para el desarrollo de este proyecto se inció con el diseño de la herramienta p
 
 A partir de las dimensiones de las ventosas y acoples dispuestos en el laboratorio y de la brida para herramientas del manipulador IRB 140 se diseño el porta ventosa tal que se adaptase a cada uno de estos elementos.
 
-Como desde un principio se establecio que el proceso de fabricación de la herramienta iba a ser por manufactura aditiva se tuvo que disminuir los concetradores de esfuerzos a traves de la presencia de chaflanes de radios bastantes pronuncioados, todo esto para evitar la fractura de la herramienta por lo anisotropia que se presentan en las piezas fabricadas por MDF en las secciones paralelas a la base de construcción.
+Desde un principio se establecio que el proceso de fabricación de la herramienta iba a ser por manufactura aditiva se tuvo que disminuir los concetradores de esfuerzos a traves de la presencia de chaflanes de radios bastantes pronuncioados, todo esto para evitar la fractura de la herramienta por lo anisotropia que se presentan en las piezas fabricadas por MDF en las secciones paralelas a la base de construcción.
 
 Adicionalmente, se estableció como criterio de diseño que el TCP deberia estar alineado al eje deacción de la articulación seis, de tal manera que esta fuese "simetrica" al rededor del eje z. Es así, que la herramienta porta ventosa final diseñada es la que se puede observar a continuación
 
