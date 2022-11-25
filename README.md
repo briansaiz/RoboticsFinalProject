@@ -72,7 +72,9 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 
 Para crear la rutina de pick and place se diseñaron dos superficies de trabajo como se muestra a continuación; en la primera (espacio de trabajo de recogida) se hubicaron las piezas a ensamblar y como se menciono a continuación cada pieza tiene un circulo grabado en la mitad para facilitar la ubicación de los target, en la segunda pieza (espacio de trabajo para colocar) se alcanza a visualizar la orientaición de cada pieza grabada con los circulos mencionados anteriormente.
 
-<img src="" alt="espacio de trabajo de pick and place" width="500">
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/53317895/203905069-2171edc0-9880-4665-918b-d776fc7b035e.jpeg" alt="tool" width="500" /> <br/>
+ </p>
 
 Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante desplazamientos articulares a cada posición de pick para evitar que la muñeca realice movimiento singulares, esta orientación se replica en el espacio de trabajo del place y mediante rotaciones alreder del eje z se cambia la orientación de algunas piezas como se evidencia en el siguiente video. Cabe resaltar que para esta rutina se utilizo un z igual a 0 pues se requeria precisión en la rutina, ademas se usó una velocidad de 200 mm/s y una aproximación al espacio de trabajo de place de 30 mm  de modo que se garantize que ninguna pieza toque los tornillos de ensamble del gripper. En cuanto a las señales para activar y desactivar la ventosa, se crearon 2 salidas digitales DO_01 y DO_02 y se incorporaron en la trayectoria de cada pieza; asi mismo se agrego la entrada digital DI_01 para iniciar la rutina y se garantiza inicie y termine en la posicion de home.   
 
