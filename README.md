@@ -48,6 +48,14 @@ Para poder interactuar y ver con mayor profundidad la herramienta porta ventosa 
 
 Los planos de fabricación se pueden ver en la carpeta de [planos](https://github.com/briansaiz/RoboticsFinalProject/blob/main/planos/Portaherramienta.pdf)
 
+
+
+<p align="center">   
+    <a href="https://cad.onshape.com/documents/87fae4edd689d660c54eaff0/w/6fba91a9acc885ef7d218d0f/e/0715371a4d1c41e46584bd85"><img src=".\assets\Herramienta.jpg"  alt="tool" width="400" /> <br/>
+    <a href="https://cad.onshape.com/documents/87fae4edd689d660c54eaff0/w/6fba91a9acc885ef7d218d0f/e/0715371a4d1c41e46584bd85">
+        Herramienta porta ventosa Final
+        </a>
+</p>
 ## Diseño del Gripper
 De cara a hacer el proceso de ensamble lo más ágil posible se decidió que el gripper debería tener el menor número de piezas, es por esto que el gripper diseñado tiene tan sólo cinco piezas.
 
