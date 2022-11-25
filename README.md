@@ -85,6 +85,21 @@ Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante d
 
 EL codigo de rapid se encuentra en la carpeta XXXXXX
 
+### Main
+
+```
+
+```
+### Pick
+```
+
+```
+### Place
+```
+
+```
+
+
 ## Desarrollo  
 
 Para el desarrollo de este proyecto se inició verificando la conexión neumática de la ventosa, seguido fue necesario verificar el voltaje de alimentación de la ventosa
