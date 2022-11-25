@@ -68,25 +68,35 @@ A continuación se puede observar como el diseño del gripper es totalmente func
     </a>
 </p>
 
-## Modelo RobotStudio 
+## Rutina Pick and Place en RobotStudio 
+
+Para crear la rutina de pick and place se diseñaron dos superficies de trabajo como se muestra a continuación; en la primera (espacio de trabajo de recogida) se hubicaron las piezas a ensamblar y como se menciono a continuación cada pieza tiene un circulo grabado en la mitad para facilitar la ubicación de los target, en la segunda pieza (espacio de trabajo para colocar) se alcanza a visualizar la orientaición de cada pieza grabada con los circulos mencionados anteriormente.
+
+<img src="" alt="espacio de trabajo de pick and place" width="500">
+
+Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante desplazamientos articulares a cada posición de pick para evitar que la muñeca realice movimiento singulares, esta orientación se replica en el espacio de trabajo del place y mediante rotaciones alreder del eje z se cambia la orientación de algunas piezas como se evidencia en el siguiente video. Cabe resaltar que para esta rutina se utilizo un z igual a 0 pues se requeria precisión en la rutina, ademas se usó una velocidad de 200 mm/s y una aproximación al espacio de trabajo de place de 30 mm  de modo que se garantize que ninguna pieza toque los tornillos de ensamble del gripper. En cuanto a las señales para activar y desactivar la ventosa, se crearon 2 salidas digitales DO_01 y DO_02 y se incorporaron en la trayectoria de cada pieza; asi mismo se agrego la entrada digital DI_01 para iniciar la rutina y se garantiza inicie y termine en la posicion de home.   
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203784722-0ff14e81-98b5-4d61-bb91-7a6c9b9d4e47.gif" alt="tool" width="500" /> <br/>
  </p>
 
 
-
-
 ## Código RAPID
 
+EL codigo de rapid se encuentra en la carpeta XXXXXX
 
 ## Desarrollo  
+
+Para el desarrollo de este proyecto se inició verificando la conexión neumática de la ventosa, seguido fue necesario verificar el voltaje de alimentación de la ventosa
+e identificar con una fuente de alimentación la conexión que activa y desactiva el sistema. Como la ventosa funciona a 24V permite la conexión directa al modulo de entradas y salidas, no obstante fue necesario verificar el cableado para confirmar la tierra y la ubicación de entradas y salidas predefinidas en el controlador DI_01 DO_01 y DO_02.
+
+A continuación se puede apreciar parte de la rutina implementada en el laboratorio LABSIR con un manipulador ABB IBR140, video completo puede ser apreciado en el siguiente enlace XXXXXXXXXXXX
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203788864-cbfbfc06-f159-49dd-9c96-099a9145cbc9.gif" alt="tool" width="500" /> <br/>
  </p>
 
-
+uUna vez terminada la rutina se procede a ubicar las tuercas correspondientes y ensayar la funcionalidad del gripper propuesto, que como se puede evidenciar el siguiente video es completamente funcional.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203791819-74921edd-79bb-41e3-abe3-f14542886926.gif" alt="tool" width="500" /> <br/>
@@ -97,5 +107,9 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 ## Conclusiones 
 
 * Al momento de diseñar un proceso de ensamble, manufactura o de cualquier indole industrial es preciso tener en cuenta cuales son los requisitos y limitaciones tanto de espacio, dispositivo como a tareas a realizar, pues son estas las que definiran los diseños desde herramientas hasta los procesos mismos.
+
+* Para la rutina desarrollada y el peso de cada pieza se evidenció que es posible optimizar la trayectoria, particularmente la velocidad de desplazamiento de entre los espacios de trabajo reduciendo el tiempo de emsamble del mecanismo.
+
+* Para aplicaciones de pick and place es indispensable definir adecuamente la orientación de los tarjects pues en este tipo de rutinas las precisión resulta muy importante a la hora ensamblar partes. Tambien es importante resaltar que al realizar rutinas de pick la ventosa no debe pegarse a la pieza pues puede desplazar la pieza a sujetar y por consiguiente piezas aledañas, por tanto se considero que un espacio de almenos 1 cm es ideal para la rutina de acercamiento de este ensamble en particular. 
 
 
