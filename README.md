@@ -83,7 +83,7 @@ Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante d
 
 ## Código RAPID
 
-EL codigo de rapid se encuentra en la carpeta  [RAPID](https://github.com/briansaiz/RoboticsFinalProject/tree/main/Rapid)
+EL código implementado se encuentra en la carpeta  [RAPID](https://github.com/briansaiz/RoboticsFinalProject/tree/main/Rapid)
 
 ### Main
 
