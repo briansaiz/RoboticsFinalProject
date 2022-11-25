@@ -15,11 +15,15 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 <p align="center">
+   
+   <p align="center"><img height=250 src="./assets/TumbnailVIdeoFInal.jpg" alt="holes on mounting flange"  href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share" /></p>
     <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share" alt="tool" width="500" /> <br/>
     <a href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share">
         Video desarrollo Proyecto Final
         </a>
 </p>
+
+
 
 
 
