@@ -17,8 +17,7 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" alt="tool" width="500" /> <br/>
     <a href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share">
-        Video desarrollo Proyecto final
-    </a>
+        </a>
 </p>
 
 [![YUTU](https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg)](https://youtube.com/watch?v=MuToaYlEyDM&feature=share)## Licencia
