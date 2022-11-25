@@ -83,7 +83,7 @@ Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante d
 
 ## Código RAPID
 
-EL codigo de rapid se encuentra en la carpeta XXXXXX
+EL codigo de rapid se encuentra en la carpeta  [RAPID](https://github.com/briansaiz/RoboticsFinalProject/tree/main/Rapid)
 
 ### Main
 
@@ -140,7 +140,7 @@ EL codigo de rapid se encuentra en la carpeta XXXXXX
 Para el desarrollo de este proyecto se inició verificando la conexión neumática de la ventosa, seguido fue necesario verificar el voltaje de alimentación de la ventosa
 e identificar con una fuente de alimentación la conexión que activa y desactiva el sistema. Como la ventosa funciona a 24V permite la conexión directa al modulo de entradas y salidas, no obstante fue necesario verificar el cableado para confirmar la tierra y la ubicación de entradas y salidas predefinidas en el controlador DI_01 DO_01 y DO_02.
 
-A continuación se puede apreciar parte de la rutina implementada en el laboratorio LABSIR con un manipulador ABB IBR140, video completo puede ser apreciado en el siguiente enlace XXXXXXXXXXXX
+A continuación se puede apreciar parte de la rutina implementada en el laboratorio LABSIR con un manipulador ABB IBR140, video completo puede ser apreciado la carpeta 
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203788864-cbfbfc06-f159-49dd-9c96-099a9145cbc9.gif" alt="tool" width="500" /> <br/>
