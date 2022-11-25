@@ -70,13 +70,13 @@ A continuación se puede observar como el diseño del gripper es totalmente func
 
 ## Rutina Pick and Place en RobotStudio 
 
-Para crear la rutina de pick and place se diseñaron dos superficies de trabajo como se muestra a continuación; en la primera (espacio de trabajo de recogida) se hubicaron las piezas a ensamblar y como se menciono a continuación cada pieza tiene un circulo grabado en la mitad para facilitar la ubicación de los target, en la segunda pieza (espacio de trabajo para colocar) se alcanza a visualizar la orientaición de cada pieza grabada con los circulos mencionados anteriormente.
+Para crear la rutina de pick and place se diseñaron dos superficies de trabajo como se muestra a continuación; en la primera (espacio de trabajo de recogida) se ubicaron las piezas a ensamblar y como se menciono a continuación cada pieza tiene un circulo grabado en la mitad para facilitar la ubicación de los target, en la segunda pieza (espacio de trabajo para colocar) se alcanza a visualizar la orientaición de cada pieza grabada con los circulos mencionados anteriormente.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203905069-2171edc0-9880-4665-918b-d776fc7b035e.jpeg" alt="tool" width="500" /> <br/>
  </p>
 
-Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante desplazamientos articulares a cada posición de pick para evitar que la muñeca realice movimiento singulares, esta orientación se replica en el espacio de trabajo del place y mediante rotaciones alreder del eje z se cambia la orientación de algunas piezas como se evidencia en el siguiente video. Cabe resaltar que para esta rutina se utilizo un z igual a 0 pues se requeria precisión en la rutina, ademas se usó una velocidad de 200 mm/s y una aproximación al espacio de trabajo de place de 30 mm  de modo que se garantize que ninguna pieza toque los tornillos de ensamble del gripper. En cuanto a las señales para activar y desactivar la ventosa, se crearon 2 salidas digitales DO_01 y DO_02 y se incorporaron en la trayectoria de cada pieza; asi mismo se agrego la entrada digital DI_01 para iniciar la rutina y se garantiza inicie y termine en la posicion de home.   
+Con los espacios de trabajo ubicados, se empieza aproximando el robot mediante desplazamientos articulares a cada posición de pick para evitar que la muñeca realice movimiento singulares, esta orientación se replica en el espacio de trabajo del place y mediante rotaciones alreder del eje z se cambia la orientación de algunas piezas como se evidencia en el siguiente video. Cabe resaltar que para esta rutina se utilizo un z igual a 0 pues se requeria precisión en la rutina, ademas se usó una velocidad de 200 mm/s y una aproximación al espacio de trabajo de place de 30 mm  de modo que se garantize que ninguna pieza toque los tornillos de ensamble del gripper. En cuanto a las señales para activar y desactivar la ventosa, se crearon 2 salidas digitales DO_01 y DO_02 y se incorporaron en la trayectoria de cada pieza; asi mismo se agrego la entrada digital DI_01 para iniciar la rutina y se garantiza inicie y termine en la posición de home.   
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203784722-0ff14e81-98b5-4d61-bb91-7a6c9b9d4e47.gif" alt="tool" width="500" /> <br/>
@@ -142,7 +142,7 @@ EL código implementado se encuentra en la carpeta  [RAPID](https://github.com/b
 ## Desarrollo  
 
 Para el desarrollo de este proyecto se inició verificando la conexión neumática de la ventosa, seguido fue necesario verificar el voltaje de alimentación de la ventosa
-e identificar con una fuente de alimentación la conexión que activa y desactiva el sistema. Como la ventosa funciona a 24V permite la conexión directa al modulo de entradas y salidas, no obstante fue necesario verificar el cableado para confirmar la tierra y la ubicación de entradas y salidas predefinidas en el controlador DI_01 DO_01 y DO_02.
+e identificar con una fuente de alimentación la conexión que activa y desactiva el sistema. Como la ventosa funciona a 24V permite la conexión directa al módulo de entradas y salidas, no obstante fue necesario verificar el cableado para confirmar la tierra y la ubicación de entradas y salidas predefinidas en el controlador DI_01 DO_01 y DO_02.
 
 A continuación se puede apreciar parte de la rutina implementada en el laboratorio LABSIR con un manipulador ABB IBR140, video completo e imagenes de la ejecución pueden ser apreciados en la carpeta [Multimedia](https://github.com/briansaiz/RoboticsFinalProject/tree/main/Multimedia) o en carpeta de [Drive](https://photos.app.goo.gl/G9AXaMccbXtvKqn88)
 
