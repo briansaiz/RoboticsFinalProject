@@ -14,7 +14,8 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 > - [Brian Camilo Saiz Cavanzo](https://github.com/briansaiz) (brcsaizca@unal.edu.co)
 ---
 
-[[YUTU](https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg)](https://youtube.com/watch?v=MuToaYlEyDM&feature=share)
+
+[![YUTU](https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg)](https://youtube.com/watch?v=MuToaYlEyDM&feature=share)
 
 ## Diseño de herramienta porta ventosa 
 Para el desarrollo de este proyecto se inció con el diseño de la herramienta porta ventosa, partiendo de las [especifiaciones del producto](https://library.e.abb.com/public/81a35b138c2342b5b9455e5696a09484/3HAC027400%20PM%20IRB%20140-en.pdf) del manipulador IRB 140, especificamente de las dimensiones de la brida para herramientas y las cuales se pueden ver acontinuación
