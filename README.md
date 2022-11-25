@@ -96,7 +96,7 @@ A continuación se puede apreciar parte de la rutina implementada en el laborato
     <img src="https://user-images.githubusercontent.com/53317895/203788864-cbfbfc06-f159-49dd-9c96-099a9145cbc9.gif" alt="tool" width="500" /> <br/>
  </p>
 
-uUna vez terminada la rutina se procede a ubicar las tuercas correspondientes y ensayar la funcionalidad del gripper propuesto, que como se puede evidenciar el siguiente video es completamente funcional.
+Una vez terminada la rutina se procede a ubicar las tuercas correspondientes y ensayar la funcionalidad del gripper propuesto, que como se puede evidenciar el siguiente video es completamente funcional.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53317895/203791819-74921edd-79bb-41e3-abe3-f14542886926.gif" alt="tool" width="500" /> <br/>
