@@ -88,15 +88,53 @@ EL codigo de rapid se encuentra en la carpeta XXXXXX
 ### Main
 
 ```
+    PROC main()
+        WaitDI DI_01,1;
+        Ensamble1;
+    ENDPROC
+    PROC Ensamble1()
+        Path_home;
+        Path_Pick2;
+        Path_Place2;
+        Path_Pick1;
+        Path_Place1;
+        Path_Pick3;
+        Path_Place3;
+        Path_Pick4;
+        Path_Place4;
+        Path_Pick5;
+        Path_Place5;
+        Path_home;    
+    ENDPROC
+
 
 ```
 ### Pick
 ```
-
+    PROC Path_Pick1()
+        MoveL Target_30,v200,z0,T_ventosa\WObj:=WO_Peak;
+        MoveL Target_20,v200,z0,T_ventosa\WObj:=WO_Peak;
+        MoveL Target_10,v200,z0,T_ventosa\WObj:=WO_Peak;
+        SetDO DO_02,0;
+        SetDO DO_01,1;
+        WaitTime 1;  
+        MoveL Target_20,v200,z0,T_ventosa\WObj:=WO_Peak;
+        MoveL Target_30,v200,z0,T_ventosa\WObj:=WO_Peak;
+    ENDPROC
+   
 ```
 ### Place
 ```
-
+ PROC Path_Place1()
+        MoveL Target_60,v200,z0,T_ventosa\WObj:=WO_Place;
+        MoveL Target_50,v200,z0,T_ventosa\WObj:=WO_Place;
+        MoveL Target_40,v200,z0,T_ventosa\WObj:=WO_Place;
+        SetDO DO_01,0;
+        SetDO DO_02,1;
+        WaitTime 1; 
+        MoveL Target_50,v200,z0,T_ventosa\WObj:=WO_Place;
+        MoveL Target_60,v200,z0,T_ventosa\WObj:=WO_Place;
+    ENDPROC
 ```
 
 
