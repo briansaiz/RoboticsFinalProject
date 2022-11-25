@@ -106,11 +106,9 @@ EL codigo de rapid se encuentra en la carpeta XXXXXX
         Path_Place5;
         Path_home;    
     ENDPROC
-
-
 ```
 ### Pick
-```
+``` RAPID
     PROC Path_Pick1()
         MoveL Target_30,v200,z0,T_ventosa\WObj:=WO_Peak;
         MoveL Target_20,v200,z0,T_ventosa\WObj:=WO_Peak;
@@ -121,7 +119,6 @@ EL codigo de rapid se encuentra en la carpeta XXXXXX
         MoveL Target_20,v200,z0,T_ventosa\WObj:=WO_Peak;
         MoveL Target_30,v200,z0,T_ventosa\WObj:=WO_Peak;
     ENDPROC
-   
 ```
 ### Place
 ```
