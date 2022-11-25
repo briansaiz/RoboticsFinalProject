@@ -15,7 +15,7 @@ Desarrollo de un sistema robotizado Pick and Place, para la automatización de p
 ---
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" alt="tool" width="500" href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share"/> <br/>
+    <img src="https://user-images.githubusercontent.com/53317895/204013046-69ddfa52-368d-45dc-afa7-9919c787c61a.jpg" href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share" alt="tool" width="500" /> <br/>
     <a href="https://youtube.com/watch?v=MuToaYlEyDM&feature=share">
         Video desarrollo Proyecto Final
         </a>
@@ -175,6 +175,6 @@ Una vez terminada la rutina se procede a ubicar las tuercas correspondientes y e
 
 * Para aplicaciones de pick and place es indispensable definir adecuadamente la orientación de los targets pues en este tipo de rutinas la precisión resulta muy importante a la hora ensamblar partes. También es importante resaltar que al realizar rutinas de pick la ventosa no debe acercarse y tocar la pieza de forma abrupta pues puede desplazar la pieza a sujetar y llegado el caso también piezas aledañas a esta, por tanto para este ejercicio se tomo un espacio entre la ventosa  y el ensamble de un centímetro para que la ventosa se acercase. 
 
-Si bien crear los espacios de pick and place de manera separada hace que en entornos industriales los procesos sean mas versátiles y flexibles al tener la capacidad y posibilidad de mover las diferentes estaciones a conveniencia, para este ejercicio académico haber tenido los espacios de pick and place en una sola estación hubiera facilitado el proceso al disminuir un proceso de calibración de un workspace extra.
+* Si bien crear los espacios de pick and place de manera separada hace que en entornos industriales los procesos sean mas versátiles y flexibles al tener la capacidad y posibilidad de mover las diferentes estaciones a conveniencia, para este ejercicio académico haber tenido los espacios de pick and place en una sola estación hubiera facilitado el proceso al disminuir un proceso de calibración de un workspace extra.
 
-*De cara a evitar singularidades es importante evitar en la mayor medida trayectorias que impliquen desplazamientos angulares importantes, y para esto se debe hacer una correcta planeación que va desde la disposición y orientación  de cada uno de los elementos a ensamblar hasta la misma ubicación de las estaciones de trabajo
+* De cara a evitar singularidades es importante evitar en la mayor medida trayectorias que impliquen desplazamientos angulares importantes, y para esto se debe hacer una correcta planeación que va desde la disposición y orientación  de cada uno de los elementos a ensamblar hasta la misma ubicación de las estaciones de trabajo
